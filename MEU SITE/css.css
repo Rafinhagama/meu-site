@@ -1,0 +1,139 @@
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(90deg,#12807C,#1CC7C1)
+}
+
+.cabecalho {
+    background-color: aliceblue;   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5px;
+}
+
+.cabecalho-imagem{
+    height: 100px;
+    border-radius: 30px;
+    
+    
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    
+
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 50px;
+    border-top: 0.2px solid azure;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous',cursive;
+    font-weight: 2500;
+    font-size: 50px;
+    color: azure;
+}
+
+.conteudo-principal-escrito-corpo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: whitesmoke;
+    
+}
+
+.conteudo-principal-escrito-botam{
+    background-color: whitesmoke;;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(2, 6, 41);
+}
+
+.conteudo-principal-escrito-botam:hover {
+    background-color: black;
+    color: azure;
+}
+
+.conteudo-principal-escrito-exemplo{ 
+    transition: width 5s, height 10s;
+}
+
+
+.vantagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 100px;
+}
+
+.pergunta{
+    border-top:0.4px solid whitesmoke;
+    padding-top: 60px;
+    font-family: 'Righteous',cursive;
+    font-weight: 6000;
+    font-size: 20px;
+    color: azure;
+    margin-bottom: 25px;
+}
+
+.pergunta-1{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 15 px;
+    color: azure;
+    
+}
+
+.rodape{
+    padding: 40px;
+    border-top:0.4px solid whitesmoke;
+}
+
+.rodape-imagem{
+    height: 140px;
+    display: block;
+    margin: 0 auto;
+
+}
